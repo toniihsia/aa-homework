@@ -10,7 +10,7 @@ class Stack
   end
 
   def remove
-    puts "The stack is already empty!" if @stack_arr.empty?
+    return "The stack is already empty!" if @stack_arr.empty?
     @stack_arr.pop
   end
 
