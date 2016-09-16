@@ -7,11 +7,8 @@ class Map
   end
 
   def assign(key, value)
-    @map_arr << [key, value] if @map_arr.empty?
-
-    @map_arr.each do |kv_pair|
-      (kv_pair[0] == key) ? kv_pair[1] = value : @map_arr << [key, value]
-    end
+    matched_i = @map_arr.index { |kv_pair| kv_pair[0] == key }
+    matched_i ? (@map_arr[matched_i][1] = value) : (@map_arr.push([key, value]))
   end
 
   def lookup(target_key)
