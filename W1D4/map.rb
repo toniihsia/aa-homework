@@ -7,11 +7,10 @@ class Map
   end
 
   def assign(key, value)
-    @map_arr.each do |kv_pair|
-      orig_key = kv_pair[0]
-      orig_value = kv_pair[1]
+    @map_arr << [key, value] if @map_arr.empty?
 
-      (orig_key == key) ? (orig_value = value) : (@map_arr << [key, value])
+    @map_arr.each do |kv_pair|
+      (kv_pair[0] == key) ? kv_pair[1] = value : @map_arr << [key, value]
     end
   end
 
