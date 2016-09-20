@@ -19,28 +19,23 @@ class Board
     raise 'Invalid starting cup' if (start_pos < 1) || (start_pos > 13)
   end
 
-  def make_move(start_pos, current_player_name)
+  def make_move(start_pos, current_player)
     render
 
-    stones_in_hand = []
-    @cups[start_pos].each { |el| stones_in_hand << el }
-    @cups[start_pos].clear
+    shift = 1
+    until @cups[start_pos].empty?
+      new_idx = (start_pos + shift) % 14
 
-    i = 1
-    last_idx = start_pos
-    until stones_in_hand.empty?
-      if @name1 == current_player_name
-        @cups[(start_pos + i) % 14] << stones_in_hand.pop unless ((start_pos + i) % 14 == 13)
-        i += 1
-      else @name2 == current_player_name
-        @cups[(start_pos + i) % 14] << stones_in_hand.pop unless ((start_pos + i) % 14 == 6)
-        i += 1
+      if @name1 == current_player
+        @cups[new_idx] << @cups[start_pos].pop unless new_idx == 13
+        shift += 1
+      else @name2 == current_player
+        @cups[new_idx] << @cups[start_pos].pop unless new_idx == 6
+        shift += 1
       end
-
-      last_idx = (start_pos + i-1) % 14
     end
 
-    return next_turn(last_idx)
+    next_turn(new_idx)
   end
 
 
