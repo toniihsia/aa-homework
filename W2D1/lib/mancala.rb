@@ -57,8 +57,8 @@ class Mancala
   end
 
   def print_indices
-    puts "\nCup indices:"
-    puts "12  11  10   9   8   7"
-    puts " 1   2   3   4   5   6"
+    puts "\nC U P   I N D I C E S:"
+    puts "#{@player2.name}'s Side: 12  11  10   9   8   7"
+    puts "#{@player1.name}'s Side:  1   2   3   4   5   6"
   end
 end
