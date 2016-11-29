@@ -1,5 +1,6 @@
 class BinaryMinHeap
   def initialize(&prc)
+    bloop
   end
 
   def count
