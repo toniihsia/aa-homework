@@ -1,0 +1,16 @@
+current directory: /Users/toniahsia/Documents/aa-academy/homework/W4D1/library/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+/Users/toniahsia/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20161002-65918-diuwn1.rb extconf.rb
+
+current directory: /Users/toniahsia/Documents/aa-academy/homework/W4D1/library/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/toniahsia/Documents/aa-academy/homework/W4D1/library/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/toniahsia/Documents/aa-academy/homework/W4D1/library/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.

@@ -1,0 +1,15 @@
+current directory: /Users/toniahsia/Documents/aa-academy/homework/W4D4/ToyApp/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+/Users/toniahsia/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20161006-56557-rymz95.rb extconf.rb
+creating Makefile
+
+current directory: /Users/toniahsia/Documents/aa-academy/homework/W4D4/ToyApp/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/toniahsia/Documents/aa-academy/homework/W4D4/ToyApp/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/toniahsia/Documents/aa-academy/homework/W4D4/ToyApp/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20161006-56557-1k3yo9o

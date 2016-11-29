@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tonia Hsia's Choco Cookie Recipe</title>
+    <meta name="description" content="The best, mofuggin recipe for some mofuggin choco chip cookies m8 aite???">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/css_custom_reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/advanced_selectors.css" type="text/css">
+    <script src="../javascript/external_javascript_example.js" type="text/javascript"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-12345678-9', 'auto');
+        ga('send', 'pageview');
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <a name="title"/>
+      <h1>Chocolate Chip Cookies</h1>
+      <img class="logo" src="http://orig11.deviantart.net/b7bd/f/2012/156/6/9/go_on_a_diet__nyan_cat__by_chinzapep-d52ctte.gif" alt="Nyan Logo" />
+      <nav>
+        <ul>
+          <li><a href="#title"/>Recipe Title</a></li>
+          <li><a href="#desription"/>Description</a></li>
+          <li><a href="#ingredients"/>Ingredients</a></li>
+          <li><a href="#directions"/>Directions</a></li>
+          <li><a href="#recipe-review"/>Recipe Review</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside class="">
+      <a name="ingredients"/>
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 Cup Salted Butter</li>
+        <li>0.5 TSP Salt
+          <li>1/2 Cup White Sugar</li>
+          <li>1 Cup Dark Brown Sugar</li>
+          <li>2 Large Eggs</li>
+          <li>2 TSP Vanilla Extract</li>
+          <li>2.5 Cups All Purpose Flour</li>
+          <li>1/2 TSP Baking Soda</li>
+          <li>2 Cups Semisweet Chocolate Chips</li>
+          <li>1 Liter of the Blood of Your Enemies</li>
+        </ul>
+    </aside>
+
+    <section>
+    <a name="desription"/>
+    <h2>Description</h2>
+    <p>This is a recipe for some delicious chocolate chip cookies.</p>
+    <a href="https://en.wikipedia.org/wiki/Chocolate_chip_cookie">
+      More About Chocolate Chip Cookies</a>
+    <br>
+    <img class="pusheen" src="https://s-media-cache-ak0.pinimg.com/originals/dd/25/f1/dd25f1072081d7bd0c173ad3b907b68b.jpg"
+      alt="cookie_jar_pusheen"/>
+
+    <a name="directions-list"/>
+    <h2>Directions</h2>
+    <ol class="directions">
+      <li>Preheat oven to 300 degrees F.</li>
+      <li>In medium bowl combine flour, baking soda, and salt.</li>
+      <li>Mix well with wire whisk.</li>
+      <li>Set aside.</li>
+      <li>Add butter and mix to form a grainy paste, scraping down the sides of the bowl.</li>
+      <li>Pour in all of your enemies' blood.</li>
+      <li>Add the flour mixture and chocolate chips, and blend at low speed until just mixed.</li>
+      <li>Drop by rounded TBSPs onto an ungreased cookie sheet, 2 inches apart.</li>
+      <li>Bake 22-24 minutes or until golden brown.</li>
+      <li>Transfer cookies immediately to a cool surface with a spatula.</li>
+      <li>Devour ravenously and absorb your enemies' powers.</li>
+    </ol>
+
+    <section id="reviews">
+      <a name="recipe-review"/>
+
+      <h2>Recipe Reviews</h2>
+      <form id="review-form" action="/reviews" method="post">
+        <label for="name">Name:</label>
+        <br>
+        <input id="name" name="name" type="text">
+        <p></p>
+
+        <label for="rating"></label>
+            1<input type="radio" name="rating" value="1" checked>
+            2<input type="radio" name="rating" value="2">
+            3<input type="radio" name="rating" value="3">
+            4<input type="radio" name="rating" value="4">
+            5<input type="radio" name="rating" value="5">
+        <p></p>
+
+        <label for="expertise"></label>
+          <select id="expertise" name="expertise">
+            <option value="Sometimes Cook" selected="true">Sometimes Cook</option>
+            <option value="Cook Everyday">Cook Everyday</option>
+            <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+            <option value="Professional Chef">God of Cookery</option>
+          </select>
+        <p></p>
+
+        <label for="review">
+          <textarea name="review" cols="115" rows="10"></textarea>
+        </label>
+
+        <input type="submit" value="Submit Review">
+      </form>
+    </section>
+    </section>
+
+    <footer>
+    This is a tweaked version of Mrs. Field's Blue Ribbon Chocolate Chip Cookies
+    </footer>
+
+  </body>
+</html>

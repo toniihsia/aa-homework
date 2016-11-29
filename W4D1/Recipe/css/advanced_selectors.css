@@ -1,0 +1,119 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  background-color: #f6e8ff;
+
+  width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  width: 700px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside {
+  width: 180px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 28px
+}
+
+ul li a, figcaption a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+    display: inline-block;
+    padding: 20px;
+}
+
+header > img {
+  width: 100px;
+}
+
+.ingredients-list {
+  list-style: square inside;
+}
+
+.ingredients-list li:nth-of-type(2n) {
+  margin: 15px 0px;
+  background-color: whitesmoke;
+}
+
+ol {
+  list-style: upper-roman inside;
+}
+
+.user_review h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input[type="radio"]:checked {
+   background-position: 27px 27px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    width: 27px;
+    height: 24px;
+    background-image: url(../heart3.png);
+    vertical-align: bottom;
+}
+
+input:last-child {
+  background: #b29aba;
+}
+
+input:last-child:hover {
+  -webkit-filter: brightness(80%);
+}
+
+ol li:nth-of-type(2n) {
+  background-color: whitesmoke;
+  margin: 10px 0;
+}
+
+h2 + .user_review {
+  border-top: 1px solid black;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+nav ul li {
+  display: inline-block
+}
+
+nav ul li a {
+  padding: 20px;
+  display: block;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+input[type=text], select {
+  display: block;
+  width: 175px;
+}
+
+select {
+  margin: 3px 0;
+  width: 180px;
+}
+
+textarea {
+  width: 700px
+}

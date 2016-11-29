@@ -1,0 +1,33 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #f6e8ff;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.ingredients-list {
+  list-style: square inside;
+}
+
+ol {
+  list-style: upper-roman inside;
+}
+
+header > img {
+  width: 100px;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  line-height: 1.5;
+}
